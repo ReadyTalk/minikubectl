@@ -1,0 +1,10 @@
+sudo: required
+dist: trusty
+language: python
+services:
+- docker
+env:
+  global:
+  - IMAGE_NAME=minikubectl
+script:
+- "./build.sh"
