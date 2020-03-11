@@ -2,7 +2,7 @@
 
 set -e
 #Use latest for each release version
-KVERSIONS=("v1.15.3" "v1.14.6" "v1.13.10" "v1.12.10" "v1.11.10" "v1.10.13" "v1.9.11" "v1.8.15" "v1.7.16")
+KVERSIONS=("v1.17.3" "v1.16.7" "v1.15.10" "v1.14.10" "v1.13.12" "v1.12.10" "v1.11.10" "v1.10.13" "v1.9.11" "v1.8.15" "v1.7.16")
 
 
 for VERSION in ${KVERSIONS[@]}
